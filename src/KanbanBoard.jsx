@@ -342,4 +342,4 @@ function KanbanBoardWrapper() {
   );
 }
 
-export default KanbanBoardWrapper
+export default KanbanBoardWrapper;

@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import KanbanBoard from './KanbanBoard'
+import React from "react";
+import KanbanBoardWrapper from "./KanbanBoard"; // ✅ Make sure the path is correct
 
 function App() {
-
   return (
-    <div>
-      <h1 style={{textAlign:'center'}}>Kanban Board</h1>
+    <div className="App">
       <KanbanBoardWrapper />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
